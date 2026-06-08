@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#summary {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.habit-card {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
